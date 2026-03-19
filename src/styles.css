@@ -1,0 +1,84 @@
+@import "@diligentcorp/atlas-react-bundle/styles";
+@import "@diligentcorp/atlas-react-bundle/global-nav.css";
+
+:root[data-theme="atlas-corporate"] .atlas-light-tokens {
+  --lens-semantic-color-background-base: #f8f9fb;
+  --lens-semantic-color-background-container: #eef1f7;
+  --lens-semantic-color-surface-default: #ffffff;
+  --lens-semantic-color-surface-variant: #eef1f7;
+  --lens-semantic-color-surface-subtle: #f4f6fa;
+  --lens-semantic-color-surface-inverse: #1c2333;
+  --lens-semantic-color-action-secondary-inverse-on-secondary-inverse: #ffffff;
+  --lens-semantic-color-action-secondary-inverse-hover: rgba(255, 255, 255, 0.08);
+  --lens-semantic-color-action-secondary-inverse-selected: rgba(255, 255, 255, 0.12);
+  --lens-semantic-color-action-secondary-inverse-on-selected: #ffffff;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator: #4f8ef7;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator-tabs: #4f8ef7;
+}
+
+:root[data-theme="horizon"] .atlas-light-tokens {
+  --lens-semantic-color-background-base: #ffffff;
+  --lens-semantic-color-background-container: #fff5f5;
+  --lens-semantic-color-surface-default: #ffffff;
+  --lens-semantic-color-surface-variant: #fff0f0;
+  --lens-semantic-color-surface-subtle: #fff8f8;
+  --lens-semantic-color-surface-inverse: #2b0a0b;
+  --lens-semantic-color-action-primary-default: #d3222a;
+  --lens-semantic-color-action-primary-default-gradient-start: #ee312e;
+  --lens-semantic-color-action-primary-default-gradient-end: #d3222a;
+  --lens-semantic-color-action-primary-hover: #ee312e;
+  --lens-semantic-color-action-primary-on-primary: #ffffff;
+  --lens-semantic-color-ui-focus-ring: #d3222a;
+  --lens-semantic-color-action-secondary-inverse-on-secondary-inverse: #fff0f0;
+  --lens-semantic-color-action-secondary-inverse-hover: rgba(255, 255, 255, 0.1);
+  --lens-semantic-color-action-secondary-inverse-selected: rgba(211, 34, 42, 0.3);
+  --lens-semantic-color-action-secondary-inverse-on-selected: #ffffff;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator: #ee312e;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator-tabs: #ee312e;
+}
+
+:root[data-theme="midnight"] .atlas-dark-tokens {
+  --lens-semantic-color-background-base: #070d1c;
+  --lens-semantic-color-background-container: #040c22;
+  --lens-semantic-color-surface-default: #0a1228;
+  --lens-semantic-color-surface-variant: #0f1a36;
+  --lens-semantic-color-surface-subtle: #0c1530;
+  --lens-semantic-color-surface-inverse: #040a17;
+  --lens-semantic-color-action-primary-default: #1a8fff;
+  --lens-semantic-color-action-primary-default-gradient-start: #1a8fff;
+  --lens-semantic-color-action-primary-default-gradient-end: #0070e0;
+  --lens-semantic-color-action-primary-hover: #47a8ff;
+  --lens-semantic-color-action-primary-on-primary: #000d1f;
+  --lens-semantic-color-ui-divider-default: #1a2545;
+  --lens-semantic-color-ui-focus-ring: #1a8fff;
+  --lens-semantic-color-action-secondary-inverse-hover: rgba(26, 143, 255, 0.1);
+  --lens-semantic-color-action-secondary-inverse-selected: rgba(26, 143, 255, 0.18);
+  --lens-semantic-color-action-secondary-inverse-on-selected: #83cfff;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator: #1a8fff;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator-tabs: #1a8fff;
+}
+
+:root[data-theme="obsidian"] .atlas-dark-tokens {
+  --lens-semantic-color-background-base: #100e0b;
+  --lens-semantic-color-background-container: #0d0b08;
+  --lens-semantic-color-surface-default: #141008;
+  --lens-semantic-color-surface-variant: #1e180f;
+  --lens-semantic-color-surface-subtle: #181309;
+  --lens-semantic-color-surface-inverse: #0a0806;
+  --lens-semantic-color-action-primary-default: #c07830;
+  --lens-semantic-color-action-primary-default-gradient-start: #d08940;
+  --lens-semantic-color-action-primary-default-gradient-end: #b06820;
+  --lens-semantic-color-action-primary-hover: #d9934a;
+  --lens-semantic-color-action-primary-on-primary: #1a0e02;
+  --lens-semantic-color-type-default: #f0dfc0;
+  --lens-semantic-color-type-muted: #9e8a6e;
+  --lens-semantic-color-type-disabled: #5e4f38;
+  --lens-semantic-color-ui-divider-default: #2a221a;
+  --lens-semantic-color-action-secondary-inverse-hover: rgba(192, 120, 48, 0.12);
+  --lens-semantic-color-action-secondary-inverse-selected: rgba(192, 120, 48, 0.22);
+  --lens-semantic-color-action-secondary-inverse-on-secondary-inverse: #f0dfc0;
+  --lens-semantic-color-action-secondary-inverse-on-selected: #e8ab6a;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator: #c07830;
+  --lens-semantic-color-action-secondary-inverse-selection-indicator-tabs: #c07830;
+  --lens-semantic-color-ui-focus-ring: #c07830;
+}
